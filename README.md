@@ -5,7 +5,7 @@ Check your Shop from your phone
 ##Features:
 - Check your shop from your phone
 - Check Bundles
-- Check Nightmarket deals
+- Check NightMarket deals
 - See skins in action with videos of popular skins
 
 ##Build your own
@@ -29,7 +29,7 @@ If you'd like to do this locally, refer to [this guide.](https://docs.expo.io/ve
 
 Run `expo build:android` to build the app for android.
 
-Run `expo build:ios` to build the app for ios.
+Run `expo build:ios` to build the app for IOS.
 
 Follow [this guide](https://docs.expo.io/versions/latest/guides/building-standalone-apps.html) to build the app for both platforms.
 

@@ -2,7 +2,7 @@
   "expo": {
     "name": "Val-Shop",
     "slug": "valShop",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "orientation": "portrait",
     "icon": "./assets/val-icon-png.png",
     "splash": {
@@ -23,7 +23,7 @@
         "foregroundImage": "./assets/val-icon-png.png",
         "backgroundColor": "#2B2D42"
       },
-      "package": "dev.mukil.valshp",
+      "package": "dev.mukil.valshop",
       "versionCode": 3
     },
     "web": {

@@ -1,10 +1,11 @@
 import React, { PropsWithChildren, useEffect, useState } from "react";
-import { View } from "react-native";
+import {Linking, View} from "react-native";
 import {
   Button,
   TextInput,
   Checkbox,
   ActivityIndicator,
+  Text
 } from "react-native-paper";
 import DropDown from "react-native-paper-dropdown";
 import { login, submitMfaCode } from "../utils/ValorantAPI";
@@ -195,13 +196,24 @@ export default function Login(props: PropsWithChildren<props>) {
               { label: "EU", value: "eu" },
               { label: "NA", value: "na" },
               { label: "AP", value: "ap" },
-              { label: "KR", value: "kr" },
+              { label: "KR", value: "kr" }
             ]}
           />
         </View>
         <Button onPress={handleBtnLogin} disabled={loading} mode="contained">
           Log In
         </Button>
+        <Text
+        style={{
+          color: "#fa4454",
+          fontSize: 12,
+          marginTop: 10,
+          textAlign: "center"
+        }}
+        onPress={() => Linking.openURL('https://support-valorant.riotgames.com/hc/en-us/articles/360055678634-Server-Select')}
+        >
+          Dont know which server to pick? Tap HERE to find out!
+        </Text>
       </>
     </View>
   );
