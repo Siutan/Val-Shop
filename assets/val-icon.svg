@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128" width="128px" height="128px">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="63.021881" y1="37.321308" x2="63.021881" y2="153.1875" gradientTransform="matrix(0.744186,0,0,0.744186,0,0)">
+<stop offset="0" style="stop-color:rgb(21.960784%,21.960784%,21.960784%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(100%,5.490196%,5.490196%);stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="125.562691" y1="40.473751" x2="125.562691" y2="112.875" gradientTransform="matrix(0.744186,0,0,0.744186,0,0)">
+<stop offset="0" style="stop-color:rgb(21.960784%,21.960784%,21.960784%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(100%,5.490196%,5.490196%);stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear2" gradientUnits="userSpaceOnUse" x1="86" y1="34.633808" x2="86" y2="155.875" gradientTransform="matrix(0.744186,0,0,0.744186,0,0)">
+<stop offset="0" style="stop-color:rgb(0%,0%,0%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(61.56863%,0%,0%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface145668659">
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 14 70.632812 L 47.09375 114 L 79.800781 114 L 14 27.773438 Z M 14 70.632812 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear1);" d="M 105.589844 84 L 114 72.976562 L 114 30.121094 L 72.882812 84 Z M 105.589844 84 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear2);" d="M 79.796875 116 L 47.09375 116 C 46.46875 116 45.882812 115.707031 45.503906 115.210938 L 12.410156 71.847656 C 12.144531 71.496094 12 71.070312 12 70.632812 L 12 27.773438 C 12 26.914062 12.546875 26.152344 13.359375 25.878906 C 14.171875 25.605469 15.070312 25.875 15.589844 26.558594 L 81.386719 112.785156 C 81.847656 113.390625 81.929688 114.203125 81.59375 114.886719 C 81.253906 115.566406 80.558594 116 79.796875 116 Z M 48.085938 112 L 75.757812 112 L 16 33.691406 L 16 69.957031 Z M 105.589844 86 L 72.882812 86 C 72.125 86 71.429688 85.566406 71.09375 84.886719 C 70.757812 84.203125 70.835938 83.390625 71.296875 82.785156 L 112.410156 28.90625 C 112.933594 28.222656 113.832031 27.953125 114.640625 28.222656 C 115.453125 28.5 116 29.261719 116 30.121094 L 116 72.980469 C 116 73.417969 115.855469 73.847656 115.589844 74.191406 L 107.179688 85.214844 C 106.800781 85.707031 106.210938 86 105.589844 86 Z M 76.925781 82 L 104.601562 82 L 112 72.300781 L 112 36.039062 Z M 76.925781 82 "/>
+</g>
+</svg>
