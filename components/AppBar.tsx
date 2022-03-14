@@ -13,9 +13,7 @@ const AppBar = (props: PropsWithChildren<props>) => {
   const closeMenu = () => setVisible(false);
 
   return (
-    <Appbar
-    style={{ backgroundColor: "#2B2D42" }}
-    >
+    <Appbar style={{ backgroundColor: "#2B2D42" }}>
       <Appbar.Content title="Val-Shop" subtitle={"for Valorant"} />
       <Menu
         visible={visible}
@@ -26,13 +24,17 @@ const AppBar = (props: PropsWithChildren<props>) => {
       >
         <Menu.Item
           onPress={() => {
-            WebBrowser.openBrowserAsync("https://valorant.fandom.com/wiki/Valorant");
+            WebBrowser.openBrowserAsync(
+              "https://valorant.fandom.com/wiki/Valorant"
+            );
           }}
           title="Add Changelog"
         />
         <Menu.Item
           onPress={() => {
-            WebBrowser.openBrowserAsync("https://valorant.fandom.com/wiki/Valorant");
+            WebBrowser.openBrowserAsync(
+              "https://valorant.fandom.com/wiki/Valorant"
+            );
           }}
           title="Add Privacy Policy"
         />

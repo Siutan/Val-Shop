@@ -8,7 +8,7 @@ import Navigation from "./components/Navigation";
 import Update from "./components/Update";
 
 export default function App() {
-  const [user, setUser] = useState<user>();
+  const [loggedIn, setLoggedIn] = useState<user>();
   const [snackbar, setSnackbar] = useState("");
 
   const theme = {
@@ -16,7 +16,7 @@ export default function App() {
     roundness: 2,
     colors: {
       ...DefaultTheme.colors,
-      primary: "#fff",
+      primary: "#dcdcdc",
       accent: "#3c3e57",
     },
   };
@@ -26,10 +26,10 @@ export default function App() {
       <SafeAreaView style={{ width: "100%", height: "100%" }}>
         <Update />
         <AppBar />
-        {!user || user.loading ? (
-          <Login user={user} setUser={setUser} setSnackbar={setSnackbar} />
+        {!loggedIn ? (
+          <Login setLoggedIn={setLoggedIn} setSnackbar={setSnackbar} />
         ) : (
-          <Navigation user={user} setUser={setUser} />
+          <Navigation setLoggedIn={setLoggedIn} />
         )}
         <SnackBar
           visible={snackbar != ""}

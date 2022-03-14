@@ -3,6 +3,7 @@
 Check your Shop from your phone
 
 ##Features:
+
 - Check your shop from your phone
 - Check Bundles
 - Check NightMarket deals
@@ -10,6 +11,7 @@ Check your Shop from your phone
 
 ##Build your own
 ###what you'll need
+
 - Node v16.x
 - npm v6.x or above
 - Expo cli `npm install -g expo-cli` (if you run `yarn start` yarn will install the cli)
@@ -34,8 +36,6 @@ Run `expo build:ios` to build the app for IOS.
 Follow [this guide](https://docs.expo.io/versions/latest/guides/building-standalone-apps.html) to build the app for both platforms.
 
 Follow [this guide.](https://docs.expo.io/versions/latest/guides/publishing-to-the-app-store.html) to publish to the app store.
-
-
 
 ####Heavy Fork of [VShop by VascYT](https://github.com/vascYT/vshop-mobile)
 All credit should go to them.
