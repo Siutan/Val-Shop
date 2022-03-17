@@ -119,6 +119,8 @@ export async function getShop(region: string) {
 
   const json = await res.json();
 
+
+
   if (json.success) {
     return {
       success: true,

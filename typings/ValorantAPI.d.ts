@@ -12,6 +12,13 @@ interface user {
   mfaEmail?: string | undefined;
 }
 
+interface currentTimezone {
+  offset: number;
+  dst: boolean;
+  abbreviation: string;
+  name: string;
+}
+
 interface singleItem {
   uuid: string;
   displayName: string;
